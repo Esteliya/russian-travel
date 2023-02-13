@@ -18,4 +18,4 @@ ______________________
 10. Все изображения оптимизированы.
 ______________________ 
 **Проект на GitHub** 
-https://github.com/Avrora-dis/russian-travel
+https://esteliya.github.io/russian-travel/
