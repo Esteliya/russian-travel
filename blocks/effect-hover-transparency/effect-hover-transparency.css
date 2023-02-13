@@ -1,0 +1,5 @@
+.effect-hover-transparency:hover {
+    opacity: 0.8;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}

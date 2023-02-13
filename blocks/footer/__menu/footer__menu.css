@@ -1,0 +1,11 @@
+.footer__menu {
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 438px) {
+    .footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+}

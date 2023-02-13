@@ -1,0 +1,24 @@
+.lead__image {
+    object-fit: contain;
+    max-width: 100vw;
+    margin-top: 64px;
+    padding-left: calc((100% - 984px)/2);
+    padding-right: calc((100% - 984px)/2);
+}
+@media (max-width: 1024px) {
+    .lead__image {
+        padding-left: calc((100% - 928px)/2);
+        padding-right: calc((100% - 928px)/2);
+        margin-top: 56px;
+}
+}
+@media (max-width: 768px) {
+    .lead__image {
+        padding: 0;
+}
+}
+@media (max-width: 320px) {
+    .lead__image {
+        margin-top: 40px;
+}
+}

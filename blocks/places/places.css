@@ -1,0 +1,36 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    color: #FFFFFF;
+    margin-bottom: 92px;
+}
+@media (max-width: 1024px) {
+    .places {
+        padding-left: calc((100% - 928px)/2);
+        padding-right: calc((100% - 928px)/2);
+}
+}
+@media (max-width: 976px) {
+    .places {
+        padding: 0 32px 0;
+}
+}
+@media (max-width: 768px) {
+    .places {
+        gap: 73px;
+        margin-bottom: 90px;
+}
+}
+@media (max-width: 762px) {
+    .places {
+        gap: 50px;
+}
+}
+@media (max-width: 320px) {
+    .places {
+        gap: 50px;
+        margin-bottom: 66px;
+        padding: 0;
+}
+}
